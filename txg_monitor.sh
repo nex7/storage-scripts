@@ -15,14 +15,15 @@
 #
 # Output will be like this:
 #
-# Begin            8167030  9999 ms
-# End              8167030      216 ms             1542 KB      363
+# Begin            8197266  10000 ms           2012 Sep 25 01:10:02
+# End              8197266      600 us                0 KB        1
 #
 # The only confusing part is the times - on a Begin, and left-justified,
-# you have time since last txg. On an End line, and right-justified, you
-# have the time spent doing the txg. You can tie txg's together in the
-# printout using the TXG ID field - they'll usually print out in order
-# (Begin, End, Begin, End, ...), but not 100% of the time.
+# you have time since beginning of last txg. On an End line, and right-
+# justified, you have the time spent doing the txg. You can tie txg's 
+# together in the printout using the TXG ID field - they'll usually 
+# print out in order (Begin, End, Begin, End, ...), but not 100% of 
+# the time.
 #
 # END HEADER
 # -----------------------------------
